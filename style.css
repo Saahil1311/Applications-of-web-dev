@@ -1,25 +1,26 @@
 * {
     margin: 0%;
-    padding: 0%;
-    background-color: bisque;
+    padding: 0;
+    background-color: wheat;
 }
-h1 {
-    text-align: center;
-    background-color: red;
-    padding: 20px;
+
+.nav {
 }
-h2 {
-    text-align: center;
-    background-color: aqua;
-    padding: 20px;
+.nav ul{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: right;
 }
-h3 {
-    text-align: center;
-    background-color: bisque;
-    padding: 20px;
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    align-items: right;
 }
-h4 {
+.header h2{
+    width: 100%;
+    display: flex;
     text-align: center;
-    background-color: rgb(100, 100, 205);
-    padding: 40px;
 }
